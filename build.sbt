@@ -14,6 +14,9 @@ lazy val root = (project in file("."))
       "org.tpolecat" %% "doobie-postgres" % "1.0.0-RC2",
       "io.github.gaelrenoux" %% "tranzactio" % "4.1.0",
       "org.lz4" % "lz4-java" % "1.8.0",
+      "org.playframework.anorm" %% "anorm" % "2.7.0",
+      "io.github.gaelrenoux" %% "tranzactio-core" % "5.0.1",
+      "io.github.gaelrenoux" %% "tranzactio-anorm" % "5.0.1",
       "dev.zio" %% "zio-test" % "2.0.13" % Test
     ),
     testFrameworks += new TestFramework("zio.test.sbt.ZTestFramework")
